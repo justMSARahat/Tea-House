@@ -4,8 +4,7 @@ Welcome to **The Tea House**, a clean, refreshing, and modern landing page desig
 
 ## 🌐 Live Preview
 
-👉 [Live Site](https://your-live-site-link.com)
-*(Replace this link with your actual deployed URL)*
+👉 [Live Site](https://justmsarahat.github.io/Tea-House/)
 
 ---
 
