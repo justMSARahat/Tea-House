@@ -81,7 +81,3 @@ For questions or freelance inquiries:
 ## © License
 
 This project is open-sourced for learning and practice purposes. Feel free to fork and modify.
-
----
-
-Let me know if you'd like this in downloadable `.md` file format or want me to help deploy it live.
