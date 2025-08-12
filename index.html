@@ -20,6 +20,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
                     }
                 }
             }
@@ -28,7 +31,7 @@
 
 </head>
 
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!-- Header Section -->
         <header class="flex flex-col-reverse md:flex-row items-center justify-between pt-10 mb-20 gap-10 md:gap-0">
@@ -161,8 +164,7 @@
                 <div class=" relative py-24">
                     <div class="absolute z-10 top-48 md:top-52">
                         <!-- middle card -->
-                        <div
-                            class=" h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+                        <div class=" h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
                             <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                 <img class="p-1" src="./images/client.png" alt="">
                             </div>
@@ -214,7 +216,66 @@
 
         </section>
 
+        <!-- News Section -->
+        <section>
+
+        </section>
+
+
     </main>
+    <!-- Footer Section -->
+    <footer class="bg-orange-100 text-grey-700 py-10 px-4 md:px-16">
+        <div class="w-9/12 mx-auto">
+            <!-- logo -->
+            <div class="mb-8 flex justify-between items-center">
+                <img src="./images/cup.png" class="mb-8" alt="">
+                <div class="flex items-center gap-2 ">
+                    <h3>Ready to Get started? </h3>
+                    <button
+                        class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold mt-6">
+                        Get Started<i class="fa-solid fa-arrow-right -rotate-45 ml-2"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- links -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- First column -->
+                 <div>
+                    <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:font-bold"><a href="#">Home</a></li>
+                        <li class="hover:font-bold"><a href="#">About</a></li>
+                        <li class="hover:font-bold"><a href="#">Insurance</a></li>
+                        <li class="hover:font-bold"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <h3 class="font-semibold text-lg mb-3">Out Services</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:font-bold"><a href="#">Life Insurance</a></li>
+                        <li class="hover:font-bold"><a href="#">Car Insurance</a></li>
+                        <li class="hover:font-bold"><a href="#">Health Insurance</a></li>
+                        <li class="hover:font-bold"><a href="#">House Insurance</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <h3 class="font-semibold text-lg mb-3">Helps</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:font-bold"><a href="#">FaQs</a></li>
+                        <li class="hover:font-bold"><a href="#">Contact Us</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                    <h3 class="font-semibold text-lg mb-3">Affiliate</h3>
+                    <ul class="space-y-2">
+                        <li class="hover:font-bold"><a href="#">Sign Up</a></li>
+                        <li class="hover:font-bold"><a href="#">Login</a></li>
+                        <li class="hover:font-bold"><a href="#">Information</a></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
